@@ -31,25 +31,26 @@ In essence, an event is tied to one customer. Depending on the current state of 
 
 #### As an example, given the arrival times (represented as a floating point value for simplicity) of three customers and one server, and assuming a constant service time of 1.0,
 
-0.500
-0.600
+0.500 </br>
+0.600 </br>
 0.700
 
 #### The simulation starts with three arrival events
 
-<0.500 1 arrives>
-<0.600 2 arrives>
+<0.500 1 arrives> </br>
+<0.600 2 arrives> </br>
 <0.700 3 arrives>
 
 #### The next event to pick is <0.500 1 arrives>. This schedules a SERVE event.
 
 <0.500 1 serves by 1> </br>
 <0.600 2 arrives> </br>
-<0.700 3 arrives> </br>
+<0.700 3 arrives>
 
 #### The next event to pick is <0.500 1 served>. This schedules a DONE event.
-<0.600 2 arrives>
-<0.700 3 arrives>
+
+<0.600 2 arrives> </br>
+<0.700 3 arrives> </br>
 <1.500 1 done serving by 1>
 
 #### The next event to pick is <0.600 2 arrives>...
@@ -58,14 +59,14 @@ This process is repeated until there are no more events.
 
 Using our example, the entire simulation run results in the following output, each of the form <time_event_occurred, customer_id, event_details> ####
 
-0.500 1 arrives
-0.500 1 serves by 1
-0.600 2 arrives
-0.600 2 waits at 1
-0.700 3 arrives
-0.700 3 leaves
-1.500 1 done serving by 1
-1.500 2 serves by 1
+0.500 1 arrives </br>
+0.500 1 serves by 1 </br>
+0.600 2 arrives </br>
+0.600 2 waits at 1 </br>
+0.700 3 arrives </br>
+0.700 3 leaves </br>
+1.500 1 done serving by 1 </br>
+1.500 2 serves by 1 </br>
 2.500 2 done serving by 1
 
 Finally, statistics of the system that we need to keep track of are:
