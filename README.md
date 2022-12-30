@@ -43,10 +43,11 @@ In essence, an event is tied to one customer. Depending on the current state of 
 
 #### The next event to pick is <0.500 1 arrives>. This schedules a SERVE event.
 
-<0.500 1 serves by 1>
-<0.600 2 arrives>
-<0.700 3 arrives>
-The next event to pick is <0.500 1 served>. This schedules a DONE event.
+<0.500 1 serves by 1> </br>
+<0.600 2 arrives> </br>
+<0.700 3 arrives> </br>
+
+#### The next event to pick is <0.500 1 served>. This schedules a DONE event.
 <0.600 2 arrives>
 <0.700 3 arrives>
 <1.500 1 done serving by 1>
