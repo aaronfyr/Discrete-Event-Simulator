@@ -1,5 +1,5 @@
 # Discrete-Event-Simulator
-CS2030 Programming Methodology II AY 2021/22 Semester 2 Project\
+CS2030 Programming Methodology II AY 2021/22 Semester 2 Project
 
 ## Narrative
 A discrete event simulator is a software that simulates the changes in the state of a system across time, with each transition from one state of the system to another triggered via an event. Such a system can be used to study many complex real-world systems such as queuing to order food at a fast-food restaurant.
