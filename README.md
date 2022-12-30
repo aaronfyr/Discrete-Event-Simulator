@@ -12,7 +12,7 @@ The following illustrates a queuing system comprising a single service point S w
 
 In this exercise, we consider a multi-server system comprising the following:
 
-*There are a number of servers; each server can serve one customer at a time.
+* There are a number of servers; each server can serve one customer at a time.
 Each customer has a service time (time taken to serve the customer).
 When a customer arrives (ARRIVE event):
 if the server is idle (not serving any customer), then the server starts serving the customer immediately (SERVE event).
