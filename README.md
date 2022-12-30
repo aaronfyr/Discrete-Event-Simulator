@@ -8,7 +8,7 @@ An event occurs at a particular time, and each event alters the state of the sys
 
 The following illustrates a queuing system comprising a single service point S with one customer queue.
 
-![Queuing System](https://imgur.com/xgh7ON0)
+![Queuing System](https://i.imgur.com/xgh7ON0.png)
 
 In this exercise, we consider a multi-server system comprising the following:
 
